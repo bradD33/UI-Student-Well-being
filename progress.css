@@ -1,0 +1,264 @@
+.progress-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.progress-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.progress-desktop1 {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(118, 221, 145, 0.4000000059604645);
+}
+.progress-text {
+  top: 22px;
+  left: 850px;
+  color: rgba(226, 125, 96, 1);
+  width: 393px;
+  height: auto;
+  position: absolute;
+  font-size: 90px;
+  font-style: italic;
+  text-align: left;
+  font-family: Nunito;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.progress-vector1 {
+  left: 566px;
+  width: 916px;
+  bottom: -9px;
+  height: 154px;
+  position: absolute;
+}
+.progress-text5 {
+  left: 964px;
+  color: rgba(255, 255, 255, 1);
+  bottom: 94px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: italic;
+  text-align: left;
+  font-family: Nunito;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.progress-text7 {
+  left: 672px;
+  color: rgba(255, 255, 255, 1);
+  width: 667px;
+  bottom: 11px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: italic;
+  text-align: left;
+  font-family: Nunito;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.progress-group9 {
+  top: 33px;
+  left: 30px;
+  width: 80px;
+  height: 80.5px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.progress-navlink {
+  display: contents;
+}
+.progress-vector2 {
+  top: 0px;
+  left: 0px;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  text-decoration: none;
+}
+.progress-navlink1 {
+  display: contents;
+}
+.progress-ellipse1 {
+  top: 24px;
+  left: 23.6158447265625px;
+  width: 33px;
+  height: 33px;
+  position: absolute;
+  text-decoration: none;
+}
+.progress-arrow3 {
+  top: 760px;
+  left: 604px;
+  width: 245px;
+  height: 1px;
+  position: absolute;
+}
+.progress-arrow4 {
+  top: 760px;
+  left: 604px;
+  width: 448px;
+  height: 1px;
+  position: absolute;
+}
+.progress-navlink2 {
+  top: -1px;
+  right: -2px;
+  width: 200px;
+  height: 80px;
+  position: absolute;
+  font-size: 30px;
+  text-align: center;
+  transition: 0.3s;
+  border-width: 1px;
+  text-decoration: none;
+}
+.progress-navlink2:hover {
+  border-color: var(--dl-color-gray-white);
+}
+.progress-navlink3 {
+  top: 190px;
+  left: -6px;
+  color: var(--dl-color-gray-white);
+  width: 306px;
+  height: 117px;
+  position: absolute;
+  font-size: 48px;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Nunito;
+  border-color: var(--dl-color-gray-white);
+  border-width: 2px;
+  text-decoration: none;
+  background-color: rgb(226, 125, 96);
+}
+.progress-navlink3:hover {
+  border: none;
+}
+.progress-navlink4 {
+  top: 77px;
+  right: -2px;
+  width: 200px;
+  height: 80px;
+  position: absolute;
+  font-size: 30px;
+  text-align: center;
+  transition: 0.3s;
+  text-decoration: none;
+  background-color: var(--dl-color-gray-white);
+}
+.progress-navlink4:hover {
+  border-color: var(--dl-color-gray-white);
+}
+.progress-navlink5 {
+  top: 237px;
+  right: -4px;
+  width: 200px;
+  height: 80px;
+  position: absolute;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(226, 125, 96);
+}
+.progress-navlink6 {
+  top: 157px;
+  right: -2px;
+  width: 200px;
+  height: 80px;
+  position: absolute;
+  font-size: 30px;
+  text-align: center;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.progress-navlink6:hover {
+  border-color: var(--dl-color-gray-white);
+}
+.progress-pasted-image {
+  top: 188px;
+  left: 685px;
+  width: 674px;
+  height: 664px;
+  position: absolute;
+}
+@media(max-width: 1600px) {
+  .progress-text {
+    top: 24px;
+    left: 612px;
+  }
+  .progress-vector1 {
+    left: 318px;
+    width: 932px;
+    bottom: -35px;
+    height: 214px;
+  }
+  .progress-text5 {
+    left: 774px;
+    bottom: 101px;
+  }
+  .progress-text7 {
+    left: 464px;
+    bottom: 7px;
+  }
+  .progress-navlink3 {
+    right: -4px;
+    bottom: -2px;
+  }
+  .progress-pasted-image {
+    top: 172px;
+    left: 471px;
+  }
+}
+@media(max-width: 1200px) {
+  .progress-text {
+    top: 14px;
+    left: 336px;
+  }
+  .progress-vector1 {
+    left: 56px;
+    width: 820px;
+    bottom: -19px;
+    height: 162px;
+  }
+  .progress-text5 {
+    left: 320px;
+    bottom: 95px;
+  }
+  .progress-text7 {
+    left: 110px;
+    bottom: 15px;
+  }
+  .progress-navlink3 {
+    right: -2px;
+    width: 185px;
+    bottom: -2px;
+    height: 181px;
+  }
+  .progress-pasted-image {
+    top: 174px;
+    left: 189px;
+  }
+}
